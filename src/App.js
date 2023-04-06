@@ -1,5 +1,5 @@
 import axios from "axios"
-import { QueryClient, useMutation, useQuery, useQueryClient } from "react-query"
+import { useMutation, useQuery, useQueryClient } from "react-query"
 
 const AnecdoteForm = () => {
   const queryClient = useQueryClient()
